@@ -27,7 +27,13 @@
   font-size: 4rem;
   background-color: rgb(167, 114, 164);
   border-style: ridge;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
 
+.fontfam{
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
 }
 
 .navbar input[type="checkbox"],
@@ -59,15 +65,6 @@
   transition: color 0.3s ease-in-out;
 }
 
-.showcase-area {
-  height: 55vh;
-  background: linear-gradient(rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)),
-    url('./img/ojos.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 .btn {
   display: inline-block;
@@ -95,20 +92,31 @@
 }
 
 .titulo {
-  font-size: xx-large;
+  font-size: xxx-large;
   text-align: center;
   font-display: initial;
-
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
 }
 
-.showcase-container {
+.showcase-area{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 165%;
   font-size: 1.6rem;
+
 }
+
+.jumbotron {
+  height: 55vh;
+  background: linear-gradient(rgba(207, 141, 196, 0.144),
+  rgba(195, 60, 222, 0.336)),
+url('./img/background.jpg');position:static;
+  background-size:100%;
+}
+
 
 .navbar .menu-items li {
   margin-bottom: 1.5rem;
@@ -135,13 +143,15 @@
 }
 
 #salon {
-  padding: 2rem 0 5rem 0;
+  padding: 4rem 0 5rem 0;
+  background-color: pink;
 }
 
 .flex-container {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(247, 244, 244);
+  background-color: pink;
+  background-size:contain;
 
 }
 
@@ -157,6 +167,7 @@
 .img-container {
   margin: 1rem;
   position: relative;
+  
 }
 
 .img-content {
@@ -277,6 +288,8 @@
   font-weight: 500;
   color: #fff;
   background: rgb(167, 114, 164);
+  font-family: 'Times New Roman', Times, serif;
+font-style: italic;
 }
 
 @media (max-width: 768px) {
@@ -374,15 +387,17 @@
   }
 
   .salon-type:not(:last-child) {
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
   }
 
   .salon-type {
-    box-shadow: 5px 5px 10px 0 #aaa;
+    box-shadow: 5px 5px 10px 10px rgb(161, 75, 163);
   }
 
   .img-container {
     margin: 0;
+    padding: 0;
+  
   }
 }
 
