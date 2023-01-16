@@ -104,16 +104,14 @@ font-style: italic;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 165%;
+  height: 100%;
   font-size: 1.6rem;
 
 }
 
 .jumbotron {
   height: 55vh;
-  background: linear-gradient(rgba(207, 141, 196, 0.144),
-  rgba(195, 60, 222, 0.336)),
-url('./img/background.jpg');position:static;
+  background: url('./img/background3.jpg');
   background-size:100%;
 }
 
@@ -132,7 +130,7 @@ url('./img/background.jpg');position:static;
 
 #about {
   padding: 40px 0;
-  background: #f5f5f7;
+  background: pink;
 
 }
 
@@ -141,16 +139,15 @@ url('./img/background.jpg');position:static;
   flex-wrap: wrap;
 
 }
-
 #salon {
   padding: 4rem 0 5rem 0;
-  background-color: pink;
+  background-color: white;
 }
 
 .flex-container {
   display: flex;
   justify-content: space-between;
-  background-color: pink;
+  background-color: white;
   background-size:contain;
 
 }
@@ -219,7 +216,7 @@ url('./img/background.jpg');position:static;
 
 #contact {
   padding: 5rem 0;
-  background: rgb(226, 226, 226);
+  background: white;
 }
 
 .contact-container {
@@ -229,6 +226,8 @@ url('./img/background.jpg');position:static;
 
 .contact-img {
   width: 50%;
+  margin: 0;
+  padding: 0;
 }
 
 .contact-img img {
@@ -241,8 +240,7 @@ url('./img/background.jpg');position:static;
 
 .form-container {
   padding: 1rem;
-  width: 50%;
-  margin: auto;
+  width: 80%;
 }
 
 .form-container input {
